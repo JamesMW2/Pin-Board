@@ -15,19 +15,20 @@
 
 <body>
 	<h1 class="header">My MoonBoard</hi>
-		<div class="searchContainer">
-			<label class="searchLabel">Search:</label>
-      <input class="searchinput" />
-      <p class="searchResult"></p>
-      <button class="newCardButton">Add a card</button>
-      </div>
-     <div class="cardContainer" id="cardContainer"></div>
-    
-    </div>
+		<div class="searchLabel" <label class="searchLabel">search</label>
+			<input
+    type="text"
+    id="searchInput"
+    class="searchInput"
+    oninput="filterTags()"
+  />
+  <p id="searchResult" class="searchResult"></p>
+  <button id="newCardButton" class="newCardButton">Add a card</button>
+</div>
 
   
 
-
+<script type="text/javascript" src="script.js"></script>
       
     </body>
 
